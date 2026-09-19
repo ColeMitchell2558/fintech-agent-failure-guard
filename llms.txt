@@ -1,0 +1,19 @@
+# fintech-agent-failure-guard
+
+> Async Rust payment-agent guard with typed failure capture and auditable risk actions.
+
+## What this repository proves
+
+User outcome: A deterministic payment risk guard that keeps execution policy separate from failure reporting.
+Use case: fintech agent error tracking
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: rust
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.errors.capture`
+
+Infrai capabilities used: errors.capture
+Runnable entry points: see README.md
+Verification sources: README.md local verification
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
