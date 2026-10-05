@@ -1,7 +1,5 @@
 # Guard payment agent failures with risk-aware actions
 
-Infrai gives you one key and one bill for every capability, so a plain REST call from any language covers the whole guard without an SDK. Here's a quick demo of the failure path.
-
 ```bash
 cargo test --offline
 ./scripts/run-demo.sh
